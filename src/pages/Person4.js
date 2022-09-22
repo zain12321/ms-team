@@ -2,27 +2,46 @@ import React, { useState } from 'react'
 import {BsPencil,BsCameraVideo, BsTelephone, BsPeople} from 'react-icons/bs'
 import {AiOutlinePlus} from 'react-icons/ai'
 import { RiSendPlane2Line } from 'react-icons/ri'
-import {Link} from 'react-router-dom'
 import Icons from '../components/Icons'
-import Per2Talk from '../components/Per2Talk'
+import {Link} from 'react-router-dom'
+import Per4Talk from '../components/Per4Talk'
 import { IoIosCheckmark } from 'react-icons/io'
-
-const person2 = [
+const person4 = [
     {
         id:1,
-        image: "https://pps.whatsapp.net/v/t61.24694-24/302011825_791584021994328_3988356719852908480_n.jpg?ccb=11-4&oh=01_AVyf68NEa8iroHhHmDY5zh3cjZFONYHT-szbPs3wzJUj3A&oe=63391C3B",
-        name: "Muhammad Hassan",
-        response: "Assalamualaikum Zain bhai",
-        time: "Yesterday  9:13 am"
+        image: "https://pps.whatsapp.net/v/t61.24694-24/296722981_610988763701283_1173040766826350660_n.jpg?ccb=11-4&oh=01_AVxtdt0xa7pvtRTTC8Ft9L1sr4s-EPEw6nLdTZzSeA7FcA&oe=633BDCCA",
+        name: "Zubair Butt",
+        response: "How are you mamo",
+        time: "Today 5:45 pm"
     }
 ]
 
-function Person2() {
+// const Friday = false;
+
+// let rase;
+// const Hello = () => {
+// if (Friday){
+//   return (
+//     <p>
+//     pakistan win the match
+//     </p>   
+//       )
+// } else{
+// return (
+//  <p>pakistan not win the match</p>
+// )
+// }
+// }
+// console.log(rase)
+
+function Person4() {
     const [ inputList, setInputList ] = useState('');
 	const [ Items, setItems ] = useState([]);
+
 	const EventChange = (event) => {
 		setInputList(event.target.value);
 	};
+
 	const ListOfItems = () => {
 		setItems((OldItems) => {
 			return [ ...OldItems, inputList ];
@@ -33,16 +52,15 @@ function Person2() {
     <div className='nav-chat-bar'>
     <div className='navbar-chi'>
       <div className='logo-i'>
-      <div className='flex'>
-      <img className='nav-logo' 
-      src="https://pps.whatsapp.net/v/t61.24694-24/302011825_791584021994328_3988356719852908480_n.jpg?ccb=11-4&oh=01_AVyf68NEa8iroHhHmDY5zh3cjZFONYHT-szbPs3wzJUj3A&oe=63391C3B"
+          <div className='flex'>
+          <img className='nav-logo' 
+    src="https://pps.whatsapp.net/v/t61.24694-24/296722981_610988763701283_1173040766826350660_n.jpg?ccb=11-4&oh=01_AVxtdt0xa7pvtRTTC8Ft9L1sr4s-EPEw6nLdTZzSeA7FcA&oe=633BDCCA"
             alt=""
-            /> 
-                <p className="right-4 ml-[-1px] "><IoIosCheckmark/>
+            />
+    <p className="right-4 ml-[-1px] "><IoIosCheckmark/>
 						</p>
-      </div>
-            <p className='nav-title'>Muhammad Hassan</p>
-
+          </div>
+            <p className='nav-title'>Zubair Butt</p>
             <BsPencil/>
             <p className='nav-title-ca'>
                 <span className='nav-title-c'>Chat</span>
@@ -51,49 +69,58 @@ function Person2() {
             <p className='nav-title-f'>Files</p>
 <AiOutlinePlus/>
         </div>
-        <div className='navbar-right-ps'>
+        <div className='navbar-right-psa'>
           <div className='camera'>
           <BsCameraVideo className='bs'/>
+
           <p className='bsl'><BsTelephone className='bs rotate-3'/></p>
+           
             </div >
            <div className='nav-right'>
            <BsPeople className='bsp'/>
-<p className='plu'><AiOutlinePlus className='pli'/></p>     
-  </div>
+<p className='plu'><AiOutlinePlus className='pli'/></p>
+
+       
+           </div>
+      
     </div>
+     
        </div>
     <div className='attend-pic'>
+    
       <div className='date-bar'>
         <p className='left-bar'></p>
-        <p className='attend-date'>Yesterday</p>
+        {/* <p className='attend-date'><Hello/></p> */}
+        <p className='attend-date'>Today</p>
         <p className='right-bar'></p>
       </div>
-     {person2?.map((item) =>
-      <Per2Talk  {...item}/>
+     {person4?.map((item) =>
+      <Per4Talk  {...item}/>
     )}
+   
      <div className='attend-people-p'>
-     <Link to='space'>
+       <Link to='space'>
         <div className='active-mh'>
           <p className='active-u'>
-         <span className='name-active'>You</span>
-            <span className='reply'>Walaikumassalam</span>
+            <span className='name-active'>You</span>
+            <span className='reply'>I'm ok Mamo How are you</span>
           </p>
            <p className='time-active'>Today</p>
         </div>
         </Link>
     </div>
+ 
        <div>
      {Items.map((itemval) => {
 
-						return  <Link to='space'> <div className='you-h'><li className="active-mb">
+						return <Link to='space'> <div className='you-h'><li className="active-mb">
                          <p className='you-ab'><p className='active-ub'>
-                         <Link to='space'> <span className='name-activeb cursor-pointer'>You</span>   </Link>
+                            <span className='name-activeb'>You</span>
                           <span className='item-ti'>{itemval}</span></p> 
                           <span className='tim'>Today 10:00 PM</span>
-                          
                           </p></li>
                           </div>
-                       </Link>
+                          </Link>
 					})}
      </div>
     <div className='bottom-nav'>
@@ -105,15 +132,18 @@ function Person2() {
 <div className='i-f'>
 <Icons/>                        <button
 						onClick={ListOfItems}
-						className="text-[#616161]">
-							<RiSendPlane2Line className="text-center h-6 w-6 m-1 outline-none nev" />
+						className="
+							  text-[#616161]"
+					>
+				<RiSendPlane2Line className="text-center h-6 w-6 m-1 outline-none nev" />
 					</button>
-     </div>
+</div>
     </div>
+    
     </div>
     </div>
 
   )
 }
 
-export default Person2
+export default Person4
