@@ -16,7 +16,7 @@ const active = [
     },
     {
         id:2,
-        image: "https://pps.whatsapp.net/v/t61.24694-24/294942294_349098890749265_2607315862855786782_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AVw5RGf7M9zTxVPmw4E55H3OavRZkX2DVD4FPw1K-oDHsw&oe=632C081F",
+        image: "https://pps.whatsapp.net/v/t61.24694-24/294942294_349098890749265_2607315862855786782_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AVwqSfRbOwbPOZ11IlusU4ThKymsy95wGgqCHdKlUYA5VA&oe=6342011F",
         name: "Hassan Mujtaba",
         response: "1 in",
         time: "Yesterday 01:39 am"
@@ -77,7 +77,7 @@ function AttendPage() {
        <div className='navbar-chia z-50'>
       <div className='logo-i '>
             <img className='nav-logo' 
-            src="https://pps.whatsapp.net/v/t61.24694-24/237469084_472594491265339_8092715740756466713_n.jpg?ccb=11-4&oh=01_AVzTdzaj4PqIZqTXlGE_9j4drO8U9Q8OZOQSAGqlVnLlJw&oe=633C4B49"
+            src="https://pps.whatsapp.net/v/t61.24694-24/299350061_2122296387962552_8776200068908557247_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AVxwDpZumAcD8B32MK8Svd---zfwe375pLimlkA-kLQwRA&oe=63437471"
             alt=""
             />
             <p className='nav-title'>Attendents</p>

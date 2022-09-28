@@ -7,7 +7,7 @@ function Per6() {
 				<div className="user-img">
 					<img
 						className="user-image"
-						src="https://pps.whatsapp.net/v/t61.24694-24/254816431_2882568472043633_8825022336389735842_n.jpg?ccb=11-4&oh=01_AVzYu-Ajo-h-lkBLOUb0e1GxLK401dSQ2ljpR6BdM1IzXA&oe=632BF1D9"
+						src="https://pps.whatsapp.net/v/t61.24694-24/254816431_2882568472043633_8825022336389735842_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AVxGLytmShI4F68B7vOPmBrVQi7RJsuC8F3cmArHwOY9Rg&oe=6341EAD9"
 						alt="sssssssss"/>
 				</div>
 				<div className="user-name">

@@ -4,7 +4,6 @@ import {AiOutlinePlus} from 'react-icons/ai'
 import { RiSendPlane2Line } from 'react-icons/ri'
 import Icons from '../components/Icons'
 import { IoIosCheckmark } from 'react-icons/io'
-import $ from 'jquery';
 
 function Space() {
     const [ inputList, setInputList ] = useState('');
@@ -19,7 +18,6 @@ function Space() {
 			return [ ...OldItems, inputList ];
 		});
 	};
-$('code').hide();
   return (
     <div className='nav-chat-bar'>
     <div className='navbar-chi'>
@@ -52,9 +50,7 @@ $('code').hide();
              <p className='text-center text-[15px] mt-2'>This chat is just for you... with you Use it for drafts send file to</p>
              <p className='text-center '>yourself, or get to know chat features a little better</p>
         </div>
-       <code>
-        hello brother how are you
-        </code>
+      
      {Items.map((itemval) => {
 						return <div className='you-h'><li className="active-mb">
                          <p className='you-ab'><p className='active-ub'>

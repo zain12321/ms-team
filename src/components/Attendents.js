@@ -8,7 +8,7 @@ function Attendents() {
 					<div className="user-img">
 						<img
 							className="user-image"
-							src="https://pps.whatsapp.net/v/t61.24694-24/237469084_472594491265339_8092715740756466713_n.jpg?ccb=11-4&oh=01_AVzTdzaj4PqIZqTXlGE_9j4drO8U9Q8OZOQSAGqlVnLlJw&oe=633C4B49"
+							src="https://pps.whatsapp.net/v/t61.24694-24/299350061_2122296387962552_8776200068908557247_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AVxwDpZumAcD8B32MK8Svd---zfwe375pLimlkA-kLQwRA&oe=63437471"
 							alt=""
 						/>
 					</div>
