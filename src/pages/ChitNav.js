@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom'
 const Chat = [
     {
         id:1,
-        image: "https://pps.whatsapp.net/v/t61.24694-24/302011825_791584021994328_3988356719852908480_n.jpg?ccb=11-4&oh=01_AVyf68NEa8iroHhHmDY5zh3cjZFONYHT-szbPs3wzJUj3A&oe=63391C3B",
+        image: "https://pps.whatsapp.net/v/t61.24694-24/302011825_791584021994328_3988356719852908480_n.jpg?ccb=11-4&oh=01_AVwoq6_FXZsl1FyhsMWQNwOWdaZ5QMswdLTJzN75j-Kmcw&oe=634AB03B",
         name: "Muhammad Hassan",
         response: "Happy Birthday Usama Subhani",
         time: "Yesterday  10:20 am"
@@ -36,7 +36,7 @@ const Chat = [
     },
     {
         id:5,
-        image: "https://pps.whatsapp.net/v/t61.24694-24/264959746_430150888586176_3090982840595277959_n.jpg?ccb=11-4&oh=01_AVyVL3RuXos55y-L90kcZCi1mGdr8hhVIu6IZSzZwQZ1vw&oe=633B8591",
+        image: "https://images.unsplash.com/photo-1611298036748-97f97f810a96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFyayUyMHBob3RvfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
         name: "Muhammad Ali",
         response: "Happy Birthday Usama Subhani   Stay blessed",
         time: "Yesterday 4:33 pm"

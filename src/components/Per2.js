@@ -8,7 +8,7 @@ function Per2() {
 					<div className="user-img flex">
 						<img
 							className="user-image"
-							src="https://pps.whatsapp.net/v/t61.24694-24/302011825_791584021994328_3988356719852908480_n.jpg?ccb=11-4&oh=01_AVyf68NEa8iroHhHmDY5zh3cjZFONYHT-szbPs3wzJUj3A&oe=63391C3B"
+							src="https://pps.whatsapp.net/v/t61.24694-24/302011825_791584021994328_3988356719852908480_n.jpg?ccb=11-4&oh=01_AVwoq6_FXZsl1FyhsMWQNwOWdaZ5QMswdLTJzN75j-Kmcw&oe=634AB03B"
 							alt=""
 						/>
 	

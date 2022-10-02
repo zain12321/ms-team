@@ -10,7 +10,7 @@ import { IoIosCheckmark } from 'react-icons/io'
 const person2 = [
     {
         id:1,
-        image: "https://pps.whatsapp.net/v/t61.24694-24/302011825_791584021994328_3988356719852908480_n.jpg?ccb=11-4&oh=01_AVyf68NEa8iroHhHmDY5zh3cjZFONYHT-szbPs3wzJUj3A&oe=63391C3B",
+        image: "https://pps.whatsapp.net/v/t61.24694-24/302011825_791584021994328_3988356719852908480_n.jpg?ccb=11-4&oh=01_AVwoq6_FXZsl1FyhsMWQNwOWdaZ5QMswdLTJzN75j-Kmcw&oe=634AB03B",
         name: "Muhammad Hassan",
         response: "Assalamualaikum Zain bhai",
         time: "Yesterday  9:13 am"
@@ -35,7 +35,7 @@ function Person2() {
       <div className='logo-i'>
       <div className='flex'>
       <img className='nav-logo' 
-      src="https://pps.whatsapp.net/v/t61.24694-24/302011825_791584021994328_3988356719852908480_n.jpg?ccb=11-4&oh=01_AVyf68NEa8iroHhHmDY5zh3cjZFONYHT-szbPs3wzJUj3A&oe=63391C3B"
+      src="https://pps.whatsapp.net/v/t61.24694-24/302011825_791584021994328_3988356719852908480_n.jpg?ccb=11-4&oh=01_AVwoq6_FXZsl1FyhsMWQNwOWdaZ5QMswdLTJzN75j-Kmcw&oe=634AB03B"
             alt=""
             /> 
                 <p className="right-4 ml-[-1px] "><IoIosCheckmark/>

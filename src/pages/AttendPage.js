@@ -9,7 +9,7 @@ import {Link} from 'react-router-dom'
 const active = [
     {
         id:1,
-        image: "https://pps.whatsapp.net/v/t61.24694-24/302011825_791584021994328_3988356719852908480_n.jpg?ccb=11-4&oh=01_AVyf68NEa8iroHhHmDY5zh3cjZFONYHT-szbPs3wzJUj3A&oe=63391C3B",
+        image: "https://pps.whatsapp.net/v/t61.24694-24/302011825_791584021994328_3988356719852908480_n.jpg?ccb=11-4&oh=01_AVwoq6_FXZsl1FyhsMWQNwOWdaZ5QMswdLTJzN75j-Kmcw&oe=634AB03B",
         name: "Muhammad Hassan",
         response: "1 in",
         time: "Yesterday  10:20 am"
@@ -37,7 +37,7 @@ const active = [
     },
     {
         id:5,
-        image: "https://pps.whatsapp.net/v/t61.24694-24/264959746_430150888586176_3090982840595277959_n.jpg?ccb=11-4&oh=01_AVyVL3RuXos55y-L90kcZCi1mGdr8hhVIu6IZSzZwQZ1vw&oe=633B8591",
+        image: "https://images.unsplash.com/photo-1611298036748-97f97f810a96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFyayUyMHBob3RvfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
         name: "Muhammad Ali",
         response: "1 break",
         time: "Yesterday 4:33 pm"
@@ -53,7 +53,7 @@ const active = [
         id:7,
         image: "https://media-exp1.licdn.com/dms/image/C5103AQH5yB-RUqugPg/profile-displayphoto-shrink_100_100/0/1521962589360?e=1666828800&v=beta&t=vbp8Iv5Z82ZK-1Ezr37nmHWPY3ezmGPt-5myo-TFOM4",
         name: "Muhammad Mohsin",
-                response: "0 Out",
+        response: "0 Out",
         time: "Yesterday 9:44 pm"
     },
   

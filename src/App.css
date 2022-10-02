@@ -249,7 +249,8 @@ body{
    /* CHAT CSS START  */
    .chat-side{
      width: 330px;
-     height: 606px;
+     /* height: 606px; */
+     height: 100vh;
     background-color: rgb(245, 245, 245);
      margin-left: 70px;
      margin-right: 10px;
