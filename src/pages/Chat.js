@@ -47,11 +47,14 @@ function Chat() {
 				<HiOutlineDotsHorizontal className='mt-2 h-4 w-4'/></div>
 				</div>
 				</Link>
+			<details open>
+				<summary className='flex items-center'> 
 				<div className="rec">
-					<IoMdArrowDropdown />
+				<IoMdArrowDropdown />
 					<p className="pinned">Recent</p>
 				</div>
-<Attendents />
+				</summary>
+<p><Attendents />
 				<Per1 />
 				<Chit />
 				<Per2 />
@@ -69,7 +72,8 @@ function Chat() {
 				<Per5 />
 				<Per7 />
 				<Per6 />
-				<Attendents />
+				<Attendents /> </p>
+				</details>
 			</div>
 		</div>
 	);
