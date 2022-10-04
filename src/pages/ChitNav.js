@@ -23,7 +23,7 @@ const active = [
         },
         {
             id:3,
-            image: "https://pps.whatsapp.net/v/t61.24694-24/296722981_610988763701283_1173040766826350660_n.jpg?ccb=11-4&oh=01_AVxtdt0xa7pvtRTTC8Ft9L1sr4s-EPEw6nLdTZzSeA7FcA&oe=633BDCCA",
+            image: "https://pps.whatsapp.net/v/t61.24694-24/266945871_784062612869051_8230589337531865786_n.jpg?ccb=11-4&oh=01_AVxjJhp8YUxxUxoSaC4HxdlWe_2E6zY1eGxUMOSR0eSgnw&oe=634BD6A1",
             name: "Zubair Butt",
             response: "Happy Birthday Ali",
             time: "Yesterday 09:20 pm"
@@ -147,7 +147,7 @@ function ChitNav() {
      {Items.map((itemval) => {
 
 			return <Link to='space'>
-        <div className='you-in'>
+        <div className='you-in mt-3 mr-11'>
         <li className="active-mb">
                 <p className='you-a'><p className='active-ub'>
                    <span className='name-activeb'>You</span>

@@ -80,9 +80,9 @@ function Person2() {
       <AttendPeople  {...item}/>
     )}
    </div>
-     <div className='attend-people-p mr-11'>
+     <div className='attend-people-p '>
        <Link to="space">
-        <div className='active-m  mt-3 mr-11'>
+        <div className='active-m mr-11'>
           <p className='active-u'>
             <span className='name-active'>You</span>
             <span className='rep'>Hi</span>
@@ -98,7 +98,7 @@ function Person2() {
      {Items.map((itemval) => {
 
 			return <Link to='space'>
-        <div className='you-in'>
+        <div className='you-in mt-3 mr-11'>
         <li className="active-mb">
                 <p className='you-a'><p className='active-ub'>
                    <span className='name-activeb'>You</span>

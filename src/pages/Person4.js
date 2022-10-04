@@ -9,7 +9,7 @@ import {Link} from 'react-router-dom'
 const active = [
   {
             id:1,
-            image: "https://pps.whatsapp.net/v/t61.24694-24/296722981_610988763701283_1173040766826350660_n.jpg?ccb=11-4&oh=01_AVxtdt0xa7pvtRTTC8Ft9L1sr4s-EPEw6nLdTZzSeA7FcA&oe=633BDCCA",
+            image: "https://pps.whatsapp.net/v/t61.24694-24/266945871_784062612869051_8230589337531865786_n.jpg?ccb=11-4&oh=01_AVxjJhp8YUxxUxoSaC4HxdlWe_2E6zY1eGxUMOSR0eSgnw&oe=634BD6A1",
             name: "Zubair Butt",
             response: "How are you mamo",
             time: "Today 5:45 pm"
@@ -35,7 +35,7 @@ function Person4() {
 <div className='flex items-center navbar-chia  z-50  '>
       <div className='logo-i '>
             <img className='nav-logo' 
-            src="https://pps.whatsapp.net/v/t61.24694-24/296722981_610988763701283_1173040766826350660_n.jpg?ccb=11-4&oh=01_AVxtdt0xa7pvtRTTC8Ft9L1sr4s-EPEw6nLdTZzSeA7FcA&oe=633BDCCA"
+            src="https://pps.whatsapp.net/v/t61.24694-24/266945871_784062612869051_8230589337531865786_n.jpg?ccb=11-4&oh=01_AVxjJhp8YUxxUxoSaC4HxdlWe_2E6zY1eGxUMOSR0eSgnw&oe=634BD6A1"
             alt=""
             />
             <p className='nav-title-h px-1 font-bold'>Zubair Butt</p>
