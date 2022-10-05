@@ -72,7 +72,82 @@ function Chat() {
 				<Per5 />
 				<Per7 />
 				<Per6 />
-				<Attendents /> </p>
+				<Attendents /> 
+				<Attendents />
+				<Per1 />
+				<Chit />
+				<Per2 />
+				<Per3 />
+				<Per4 />
+				<Per5 />
+				<Per7 />
+				<Per6 />
+				<Attendents />
+				<Per1 />
+				<Chit />
+				<Per2 />
+				<Per3 />
+				<Per4 />
+				<Per5 />
+				<Per7 />
+				<Per6 />
+				<Attendents /> 
+				<Attendents />
+				<Per1 />
+				<Chit />
+				<Per2 />
+				<Per3 />
+				<Per4 />
+				<Per5 />
+				<Per7 />
+				<Per6 />
+				<Attendents />
+				<Per1 />
+				<Chit />
+				<Per2 />
+				<Per3 />
+				<Per4 />
+				<Per5 />
+				<Per7 />
+				<Per6 />
+				<Attendents />< Attendents />
+				<Per1 />
+				<Chit />
+				<Per2 />
+				<Per3 />
+				<Per4 />
+				<Per5 />
+				<Per7 />
+				<Per6 />
+				<Attendents />
+				<Per1 />
+				<Chit />
+				<Per2 />
+				<Per3 />
+				<Per4 />
+				<Per5 />
+				<Per7 />
+				<Per6 />
+				<Attendents />< Attendents />
+				<Per1 />
+				<Chit />
+				<Per2 />
+				<Per3 />
+				<Per4 />
+				<Per5 />
+				<Per7 />
+				<Per6 />
+				<Attendents />
+				<Per1 />
+				<Chit />
+				<Per2 />
+				<Per3 />
+				<Per4 />
+				<Per5 />
+				<Per7 />
+				<Per6 />
+				<Attendents /> 
+				</p>
 				</details>
 			</div>
 		</div>

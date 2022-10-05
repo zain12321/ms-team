@@ -253,12 +253,13 @@ body{
   height:  22px;
   width: 22px;
  border-radius: 100%;
+ 
  font-size: 12px;
  padding-left: 6px;
  font-weight: 700;
  position: absolute;
  left: 30px;
- top: 65px;
+ top: 45px;
 }
    /* SIDEBAR-ICONS END */
    /* CHAT CSS START  */
