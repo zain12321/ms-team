@@ -12,7 +12,6 @@ import Space from './pages/Space';
 import ChitNav from './pages/ChitNav';
 import Person5 from './pages/Person5';
 
-
 function App() {
 	return (
 		<div className="">
@@ -47,6 +46,7 @@ function App() {
 						<Route path="/person5">
 							<Person5 />
 						</Route>
+						
 					</Switch>
 				</div>
 			</Router>

@@ -9,7 +9,7 @@ import {Link} from 'react-router-dom'
 const active = [
     {
         id:1,
-        image: "https://pps.whatsapp.net/v/t61.24694-24/294942294_349098890749265_2607315862855786782_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AVwqSfRbOwbPOZ11IlusU4ThKymsy95wGgqCHdKlUYA5VA&oe=6342011F",
+        image: "https://pps.whatsapp.net/v/t61.24694-24/294942294_349098890749265_2607315862855786782_n.jpg?ccb=11-4&oh=01_AVwcXY92DG5GTl_qiYxpV2pR-5lpIPj3_JEhakx8pDHxGg&oe=6353951F",
         name: "Hassan Mujtaba",
         response: "Assalamualaikum Zain",
         time: "Yesterday 01:39 am"
@@ -37,7 +37,7 @@ function Person1() {
 <div className='flex items-center navbar-chia  z-50  '>
       <div className='logo-i '>
             <img className='nav-logo' 
-            src="https://pps.whatsapp.net/v/t61.24694-24/294942294_349098890749265_2607315862855786782_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AVwqSfRbOwbPOZ11IlusU4ThKymsy95wGgqCHdKlUYA5VA&oe=6342011F"
+            src="https://pps.whatsapp.net/v/t61.24694-24/294942294_349098890749265_2607315862855786782_n.jpg?ccb=11-4&oh=01_AVwcXY92DG5GTl_qiYxpV2pR-5lpIPj3_JEhakx8pDHxGg&oe=6353951F"
             alt=""
             />
             <p className='nav-title-h px-1 font-bold'>Hassan Mujtaba</p>

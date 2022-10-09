@@ -1,8 +1,7 @@
 import React from 'react';
 import { IoIosCheckmark } from 'react-icons/io';
 
-function Per1Talk(props) {
-	const { name, image, response, time } = props;
+function Per1Talk( { name, image, text, time }) {
 
 	return (
 		<div className="attend-people">
@@ -13,7 +12,7 @@ function Per1Talk(props) {
 	</div>			<div className="active-p-chat">
 				<p className="active-u">
 					<span className="name-active">{name}</span>
-					<span className="resp">{response}</span>
+					<span className="resp">{text}</span>
 				</p>
 				<p className="time-active">{time}</p>
 			</div>
